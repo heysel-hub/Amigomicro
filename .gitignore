@@ -1,2 +1,24 @@
-**/vendor/
-**/composer.lock
+# Dependencias de Composer
+/vendor/
+
+
+# Configuración local (credenciales, entorno)
+/.env
+
+# Logs
+*.log
+
+# Archivos temporales
+/tmp/
+*.cache
+
+# Configuración de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos de prueba o personales
+test_db.php
